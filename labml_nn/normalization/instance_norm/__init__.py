@@ -12,7 +12,7 @@ This is a [PyTorch](https://pytorch.org) implementation of
 
 Instance normalization was introduced to improve [style transfer](https://paperswithcode.com/task/style-transfer).
 It is based on the observation that stylization should not depend on the contrast of the content image.
-The "contrast normalization" is
+An example of "contrast normalization" is
 
 $$y_{t,i,j,k} = \frac{x_{t,i,j,k}}{\sum_{l=1}^H \sum_{m=1}^W x_{t,i,l,m}}$$
 
